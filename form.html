@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="css/formCSS.css">
+	<title>Evacuator</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-container">
+				<div class="header-images">
+					<a href="index.html"><img src="images/Logo.jpeg" alt="лого"></a>
+				</div>
+				<div class="header-info">
+					<div class="header-link">
+						<a href="">о проекте</a>
+						<a href="">контакты</a>
+					</div>
+					<div class="header-button-block">
+						<a href="form.html" class="header-button">Добавить объявление</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="main">
+			<div class="form-main">
+				<div class="form-title">
+					<h1>Создание объявления</h1>
+				</div>
+				<div class="form-text">
+					<div class="_container">
+						<div class="form-text-block">
+							<img src="images/formGroup.png" alt="">
+							<p>Заполните все поля формы на размещение своего объявления на сайте. Размещение объявления платное.Стоимость за одно объявление составляет <span>990 руб</span>. <br>Объявление будет опубликовано на сайте после оплаты и проверки модератором.</p>
+						</div>
+					</div>
+				</div>
+				<div class="form-send">
+					<div class="_container">
+						<form action="" class="form-main">
+							<div class="form-block-data">
+								<div class="city">
+									<div class="one-div"><label for="city-lable">Выберите город</label></div>
+									<select name="city" id="city-select">
+										<option value="petersburg">Санкт-Петербург</option>
+										<option value="samara">Москва</option>
+										<option value="perm">Пермь</option>
+										<option value="novosibirsk">Новосибирск</option>
+									</select>
+								</div>
+								<div class="name">
+									<div class="one-div">Ваше имя</div>
+									<input class="input" type="text" name="one-line">
+								</div>
+								<div class="number">
+									<div class="one-div">Номер мобильного телефона</div>
+									<input class="input" placeholder="+7 (999) 999 99 99" type="tel" name="two-line">
+								</div>
+								<div class="number-city">
+									<div class="one-div">Номер городского телефона</div>
+									<input class="input" placeholder="+7 (999) 999 99 99" type="tel" name="three-line">
+								</div>
+								<div class="email">
+									<div class="one-div">Ваш email</div>
+									<input class="input" placeholder="example@gmail.com" type="email" name="four-line">
+								</div>
+								<div class="addres">
+									<div class="one-div">Адрес стоянки эвакуатора</div>
+									<input class="input" type="text" name="five-line">
+								</div>
+							</div>
+		
+							<div class="form-information">ИНФОРМАЦИЯ</div>
+							<div class="form-block-information">
+								<div class="heading">
+									<div class="one-div">Заголовок объявления</div>
+									<input class="input" placeholder="Не более 50 символов" type="text" maxlength="50" name="one-line">
+								</div>
+								<div class="description">
+									<div class="one-div"><label>Описание объявления</label></div>
+									<textarea class="" placeholder="Не более 50 символов" maxlength="50" name="one-line"></textarea>
+								</div>
+							</div>
+		
+							<div class="form-information">ЦЕНЫ</div>
+							<div class="form-block-prices">
+
+								<div class="form-price-cars">
+									<div class="one-div">Легковые автомобили</div>
+									<div class="form-prices-bottom">
+										<div class="">
+											<input class="input" type="text" name="one-line"><span>рублей</span>
+										</div>
+										<div class="form-service">
+											<input class="checkbox-input" type="checkbox" id="service" checked />
+    										<label class="checkbox-label" for="service">Услугу не оказываю</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-price-cars">
+									<div class="one-div">Мототехника</div>
+									<div class="form-prices-bottom">
+										<div class="">
+											<input class="input" type="text" name="one-line"><span>рублей</span>
+										</div>
+										<div class="form-service">
+											<input class="checkbox-input" type="checkbox" id="service" checked />
+    										<label class="checkbox-label" for="service">Услугу не оказываю</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-price-cars">
+									<div class="one-div">Внедорожник</div>
+									<div class="form-prices-bottom">
+										<div class="">
+											<input class="input" type="text" name="one-line"><span>рублей</span>
+										</div>
+										<div class="form-service">
+											<input class="checkbox-input" type="checkbox" id="service" checked />
+    										<label class="checkbox-label" for="service">Услугу не оказываю</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-price-cars">
+									<div class="one-div">Микроавтобус</div>
+									<div class="form-prices-bottom">
+										<div class="">
+											<input class="input" type="text" name="one-line"><span>рублей</span>
+										</div>
+										<div class="form-service">
+											<input class="checkbox-input" type="checkbox" id="service" checked />
+    										<label class="checkbox-label" for="service">Услугу не оказываю</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-price-cars">
+									<div class="one-div">Загородный тариф</div>
+									<div class="form-prices-bottom">
+										<div class="">
+											<input class="input" type="text" name="one-line"><span>рублей</span>
+										</div>
+										<div class="form-service">
+											<input class="checkbox-input" type="checkbox" id="service" checked />
+    										<label class="checkbox-label" for="service">Услугу не оказываю</label>
+										</div>
+									</div>
+								</div>
+
+							</div>
+		
+							<div class="form-information">ФОТО</div>
+							<div class="form-block-foto">
+								<div class="one-div">Прикрепите фотографию к объявлению</div>
+								<div class="block-foto">
+									<input type="file" id="upload-file" multiple accept="image/*,image/jpeg" hidden="hidden">
+									<input type="button" id="upload-btn" value="загрузить">
+									<span id="upload-text">Файл не загружен</span>
+								</div>
+								<!-- <label class="k" for="input"><button>Choose File</button></label> -->
+							</div>
+		
+							<div class="form-approval">
+								<label for="">
+									<input type="checkbox" class="approval-checkbox">Я соглашаюсь с правилами использования сервиса, а также с передачей и обработкой моих данных в evarus.ru. Я подтверждаю своё совершеннолетие и ответственность за размещение.
+								</label>
+								<button type="submit" class="form-btn">Продолжить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="_container">
+				<div class="footer-container">
+					<div class="logo-footer">
+						<img src="images/logoFooter.png" alt="">
+					</div>
+					<div class="footer-menu">
+						<a href="">Вызвать эвакуатор</a>
+						<a href="">Добавить эвакуатор на сайт</a>
+						<a href="">Помощь</a>
+						<a href="">Правила оплаты</a>
+						<a href="">Защита персональных данных</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+		<div class="scroll-up">
+			<svg class="scroll-up__svg" width="13.322266" height="26.003906" viewBox="0 0 13.3223 26.0039" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<desc>
+						Created with Pixso.
+				</desc>
+				<defs/>
+				<path class="scroll-up__svg-path" id="Vector 7" d="M5.66 3.41L1.71 7.36C1.31 7.76 0.69 7.76 0.29 7.36C-0.1 6.97 -0.1 6.34 0.29 5.95L5.95 0.29C6.35 -0.1 6.97 -0.1 7.36 0.29L13.02 5.95C13.42 6.34 13.42 6.97 13.02 7.36C12.62 7.76 12 7.76 11.61 7.36L7.66 3.41L7.66 25C7.66 25.56 7.22 26 6.66 26C6.1 26 5.66 25.56 5.66 25L5.66 3.41Z" fill="#0297D4" fill-opacity="1.000000" fill-rule="evenodd"/>
+			</svg>
+		</div>
+	</div>
+	<script src="js/formJS.js"></script>
+</body>
